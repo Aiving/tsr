@@ -10,7 +10,7 @@ use tsr_runtime::{
 
 #[test]
 fn main() -> io::Result<()> {
-    let path = "/home/aiving/Documents/tsr/main.tsx";
+    let path = "main.tsx";
     let input = fs::read_to_string(path)?;
     let code = input.as_bytes();
 
